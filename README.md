@@ -37,7 +37,8 @@ allprojects {
 step 2
 add this dependency 
 	       
-	  implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.1'
+	 
+     implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.0'
 
   # Maven
 	<repositories>
