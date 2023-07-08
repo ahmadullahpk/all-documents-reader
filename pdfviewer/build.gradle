@@ -4,12 +4,12 @@ plugins {
 
 android {
 namespace 'com.artifex.mupdf'
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
 
         minSdk 24
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -24,8 +24,8 @@ namespace 'com.artifex.mupdf'
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
 

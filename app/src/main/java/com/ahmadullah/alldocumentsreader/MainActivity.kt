@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("format", "csv")
             startActivity(intent)
         })
-        
+
 
         binding.rlJson.setOnClickListener(View.OnClickListener {
             var intent = Intent(this@MainActivity, List_Files_Activity::class.java)
