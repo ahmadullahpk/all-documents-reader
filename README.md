@@ -37,6 +37,9 @@ allprojects {
 
 
  pluginManagement {
+
+
+
     repositories {
         google()
         mavenCentral()
@@ -45,10 +48,14 @@ allprojects {
         maven { url 'https://jitpack.io' }
 
     }
+
+    
 }
 
 
 dependencyResolutionManagement {
+
+
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
@@ -56,6 +63,8 @@ dependencyResolutionManagement {
         jcenter()
         maven { url 'https://jitpack.io' }
     }
+
+    
 }
 
 
@@ -72,6 +81,8 @@ add this dependency
 
 Add build.gradle (App)
 android {
+
+
 ........
 
  packagingOptions {
@@ -80,6 +91,8 @@ android {
     }
     
     ...........
+
+    
     
 }
      
