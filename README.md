@@ -18,7 +18,7 @@ Just use this 4 line code
 
 
 # Gradle
-Step 1
+# Step 1
 
 add jitpack repository 
 
@@ -31,14 +31,54 @@ allprojects {
 		}
   
 	}
+
+ # OR
+
+ pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+
  
 
 
-step 2
+# Step 2
 add this dependency 
 	       
 	 
      implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.0'
+
+# Step 3
+
+Add build.gradle (App)
+android {
+........
+
+ packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/INDEX.LIST'
+    }
+    
+    ...........
+    
+}
+     
 
   # Maven
 	<repositories>
@@ -58,6 +98,7 @@ add this dependency
 
  # Contact me if you have problem
 Fiverr: https://www.fiverr.com/s/rRb0Yr
+WhatsApp: +923115799224
 
 
  
