@@ -60,8 +60,4 @@ Fiverr: https://www.fiverr.com/s/rRb0Yr
 
 
  
-
-
-
-   // implementation 'com.github.ahmadullahpk:all-document-reader:1.0.0'
  
