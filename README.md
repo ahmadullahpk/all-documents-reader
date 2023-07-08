@@ -34,6 +34,8 @@ allprojects {
 
  # OR
 
+
+
  pluginManagement {
     repositories {
         google()
@@ -44,6 +46,8 @@ allprojects {
 
     }
 }
+
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -62,7 +66,7 @@ dependencyResolutionManagement {
 add this dependency 
 	       
 	 
-     implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.0'
+    implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.6'
 
 # Step 3
 
