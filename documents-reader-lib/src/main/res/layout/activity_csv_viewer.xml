@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activityRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:corner_radius_top="@dimen/root_view_corner_radius">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="3dp"
+                android:src="@drawable/back_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                app:tint="@color/blue_start" />
+
+            <TextView
+                android:id="@+id/header_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/blue_start"
+                android:layout_toLeftOf="@+id/img_option"
+                android:layout_toRightOf="@+id/img_back"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <ImageView
+                android:id="@+id/img_option"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_more"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                app:tint="@color/blue_start" />
+        </RelativeLayout>
+
+        <com.ahmadullahpk.alldocumentreader.widgets.tableview.TableView
+            android:id="@+id/tableview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:allow_click_inside_cell="true"
+            app:allow_click_inside_column_header="true"
+            app:allow_click_inside_row_header="true" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

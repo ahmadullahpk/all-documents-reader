@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="SymmetricProgressBar_colors">
+        <item>#bae5e5</item>
+        <item>#2196f3</item>
+        <item>#bae5e5</item>
+        <item>#2196f3</item>
+    </array>
+
+
+    <array name="setting_items">
+        <item>Maximum count of recently files(1~20)</item>
+    </array>
+    <!-- Reply Preference -->
+
+</resources>

@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AllDocumentsReader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_start</item>
+        <item name="colorPrimaryVariant">@color/blue_start</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>

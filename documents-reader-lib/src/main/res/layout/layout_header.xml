@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="124dip"
+    android:background="@color/bg"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_16sdp"
+    android:paddingBottom="@dimen/margin_smallest">
+
+    <LinearLayout
+        android:id="@+id/desc_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/header_layout_margin_top"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/layout_margin_left_right"
+        android:paddingRight="@dimen/layout_margin_left_right"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:id="@+id/llHeaderTextParent"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.68"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.ahmadullahpk.alldocumentreader.manageui.CustomTextGradient
+                android:id="@+id/header_title_text"
+                style="@style/SecondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                app:endColor="@color/blue_end"
+                app:startColor="@color/blue_start" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

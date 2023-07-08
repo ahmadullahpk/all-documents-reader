@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="SymmetricProgressBar_duration">2000</integer>
+    <integer name="default_item_cache_size">10</integer>
+    <integer name="regular">3</integer>
+    <integer name="light">1</integer>
+    <integer name="semi_bold">2</integer>
+    <integer name="extra_bold">4</integer>
+
+
+</resources>

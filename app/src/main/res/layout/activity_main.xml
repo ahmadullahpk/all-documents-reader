@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_start"
+    tools:context="com.ahmadullah.alldocumentreader.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_word"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="Word (DOCX and DOC)"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_excel"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="Excel (XLSX and XLS)"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_ppt"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="Power Point (PPTX and PPT)"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_pdf"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="PDF Files"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_rtf"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="Ritch Text File (RTF)"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_csv"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="CSV"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_json"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="JSON"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_html"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="HTML"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_xml"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="XML"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_java"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="java"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_kotlin"
+            android:background="@drawable/btn_white"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="Kotlin"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

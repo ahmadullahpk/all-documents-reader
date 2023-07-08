@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+             <TextView
+                 android:id="@+id/txt_file_name"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Filename"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="20dp"/>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/txt_file_name" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_no_files"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/img_files"
+                    android:layout_width="80dp"
+                    android:layout_height="85dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/files"
+                    app:tint="@color/purple_700" />
+
+                <TextView
+                    android:id="@+id/txt_no_files"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_files"
+                    android:text="No Word (DOC or DOCX) Files"
+                    android:textColor="@color/purple_700"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp" />
+
+            </RelativeLayout>
+
+</RelativeLayout>

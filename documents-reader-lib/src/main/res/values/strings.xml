@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name"> All Document Viewer</string>
+    <string name="permissionGranted">Permission Granted</string>
+    <string name="permission_denied_message2">Permission Denied, the app may not work without these permission. Try again.</string>
+
+    <string name="sys_button_cancel">Cancel</string>
+    <string name="sys_button_ok">OK</string>
+    <string name="sys_menu_settings">Settings</string>
+    <string name="sys_name">All Document Viewer</string>
+    <string name="sys_share_title">Sending mail...</string>
+
+    <string name="dialog_ascending">Ascending</string>
+    <string name="dialog_descending">Descending</string>
+    <string name="dialog_create_folder_error">Failed to create folder</string>
+    <string name="dialog_file_name">File Name</string>
+    <string name="dialog_file_rename_error">Failed to rename file</string>
+    <string name="dialog_folder_name">Folder Name</string>
+    <string name="dialog_name_error">%s already exists.</string>
+    <string name="pg_toolsbar_note">Note</string>
+
+
+    <string name="app_folder_name">/AllDocumentReader/data</string>
+    <string name="shareUsing">Share using</string>
+
+
+    <string name="loadingFiles">Loading Files…</string>
+    <string name="pdfFileCreatedSuccessfully">PDF File Created Successfully</string>
+    <string name="saveAsPDF">Save as PDF</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="cannot_open_document">Cannot open document</string>
+    <string name="cannot_open_document_Reason">Cannot open document: %1$s</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="enter_password">Enter password</string>
+    <string name="no_further_occurrences_found">No further occurrences found</string>
+    <string name="not_supported">Not supported</string>
+    <string name="okay">Okay</string>
+    <string name="search">Search&#x2026;</string>
+    <string name="searching_">Searching&#x2026;</string>
+    <string name="text_not_found">Text not found</string>
+
+
+</resources>

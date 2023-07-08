@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#D88A16</color>
+    <color name="purple_700">#D88A16</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#c92d2822</color>
+    <color name="card_default_shadow_color">#319b9b9b</color>
+    <color name="card_default_border_color">#fff6f6f6</color>
+    <color name="defaultStartColor">#7b1fe6</color>
+    <color name="defaultEndColor">#9f51ff</color>
+    <color name="title_info_color">#ff333333</color>
+    <color name="navigation_text_color_selected">#ff6c4ccb</color>
+    <color name="list_item_pressed">#c8c8c8c8</color>
+    <color name="subject_child_color">#ff757575</color>
+    <color name="progress_bg_color">#f1f1f1</color>
+    <color name="ripple_light">#1f000000</color>
+
+    <color name="blue_end">#0D3AE1</color>
+    <color name="blue_start">#476efe</color>
+    <color name="table_view_default_selected_background_color">#fada65</color>
+    <color name="table_view_default_separator_color">#e7e7e7</color>
+
+    <!--    <color name="solid_grey">#4f4f4f</color>-->
+
+    <color name="grey">#FFFFFF</color>
+    <color name="csv_start">@color/grey</color>
+    <color name="text_dark_grey">@color/white</color>
+
+    <color name="bg">#3D3D3D</color>
+
+
+</resources>

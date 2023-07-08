@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <com.ahmadullahpk.alldocumentreader.manageui.CustomButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/roundedNavButton"
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false"
+            android:focusable="false"
+            app:enableShadow="true"
+            app:roundedCorner="true"
+            app:shadowColor="@color/card_default_shadow_color" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/button_overlay_margin_left_right"
+        android:layout_marginTop="@dimen/button_overlay_margin_top"
+        android:layout_marginRight="@dimen/button_overlay_margin_left_right"
+        android:layout_marginBottom="@dimen/button_overlay_margin_bottom"
+        android:foreground="@drawable/rounded_ripple_bg" />
+</FrameLayout>

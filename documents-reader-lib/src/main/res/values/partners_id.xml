@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   admob original ids-->
+
+
+    <!--   admob test ids-->
+   <!-- <string name="bannar_id_admob" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id_admob" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native_advance_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_app_open_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+</resources>

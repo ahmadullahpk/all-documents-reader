@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backg"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/txt_qq"
+        android:layout_width="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="13dp"
+        android:paddingTop="15dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="7dp"
+        android:text="Exit ?"
+        android:textColor="@color/blue_start"
+        android:textSize="19dp"
+        android:fontFamily="@font/lato_bold"/>
+
+
+    <TextView
+        android:id="@+id/txt_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/txt_qq"
+        android:textColor="@color/blue_start"
+        android:text="Are you sure want to exit?"
+        android:fontFamily="@font/lato_regular"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_note"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/txt_no"
+            android:layout_width="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="13dp"
+            android:paddingTop="7dp"
+            android:paddingRight="13dp"
+            android:paddingBottom="7dp"
+            android:text="Buy-Pro"
+            android:textColor="@color/blue_start"
+            android:textSize="19dp"
+            android:fontFamily="@font/lato_bold"/>
+
+
+        <TextView
+            android:id="@+id/txt_yes"
+            android:layout_width="80dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="35dp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/blue_start"
+            android:paddingTop="7dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="7dp"
+            android:text="Yes"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

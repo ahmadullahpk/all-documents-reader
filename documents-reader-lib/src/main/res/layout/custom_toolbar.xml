@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:minHeight="?android:actionBarSize"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@+id/backNav"
+        layout="@layout/rounded_nav_button"
+        android:layout_width="@dimen/toolbar_nav_height"
+        android:layout_height="@dimen/toolbar_nav_height"
+        android:layout_gravity="center|left"
+        android:layout_marginStart="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginTop="@dimen/toolbar_nav_top_margin"
+        android:layout_marginBottom="@dimen/toolbar_nav_bottom_margin"
+        android:padding="@dimen/nav_menu_padding" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginTop="@dimen/dimen_4_dp"
+        android:layout_marginRight="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginBottom="@dimen/dimen_4_dp"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ahmadullahpk.alldocumentreader.manageui.CustomFontTextView
+            android:id="@+id/title"
+            style="@style/ToolbarTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1" />
+
+        <com.ahmadullahpk.alldocumentreader.manageui.CustomFontTextView
+            android:id="@+id/desc"
+            style="@style/ToolbarSubtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/toolbar_desc_size"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/customView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/optionalNav2"
+        layout="@layout/rounded_nav_button"
+        android:layout_width="@dimen/toolbar_nav_height"
+        android:layout_height="@dimen/toolbar_nav_height"
+        android:layout_gravity="end|center"
+        android:layout_marginTop="@dimen/toolbar_nav_top_margin"
+        android:layout_marginEnd="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginBottom="@dimen/toolbar_nav_bottom_margin"
+        android:padding="@dimen/nav_menu_padding"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/optionalNav"
+        layout="@layout/rounded_nav_button"
+        android:layout_width="@dimen/toolbar_nav_height"
+        android:layout_height="@dimen/toolbar_nav_height"
+        android:layout_gravity="end|center"
+        android:layout_marginTop="@dimen/toolbar_nav_top_margin"
+        android:layout_marginEnd="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginBottom="@dimen/toolbar_nav_bottom_margin"
+        android:padding="@dimen/nav_menu_padding" />
+
+    <include
+        android:id="@+id/optionalNav3"
+        layout="@layout/rectangle_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toolbar_nav_height"
+        android:layout_gravity="end|center"
+        android:layout_marginTop="@dimen/toolbar_text_nav_top_margin"
+        android:layout_marginEnd="@dimen/toolbar_nav_left_right_margin"
+        android:layout_marginBottom="@dimen/toolbar_nav_bottom_margin"
+        android:padding="@dimen/nav_menu_padding"
+        android:visibility="gone" />
+</LinearLayout>

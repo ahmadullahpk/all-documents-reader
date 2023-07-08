@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NewAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColorSecondary">@color/subject_child_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/navigation_text_color_selected</item>
+        <item name="android:textColorHint">@color/subject_child_color</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">@null</item>
+        <item name="android:colorFocusedHighlight">@color/navigation_text_color_selected</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:colorControlNormal">@color/black</item>
+        <item name="android:colorControlActivated">@color/navigation_text_color_selected</item>
+        <item name="android:colorControlHighlight">@color/list_item_pressed</item>
+        <item name="android:colorPrimary">@color/navigation_text_color_selected</item>
+        <item name="android:colorAccent">@color/navigation_text_color_selected</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/shared_element_enter_exit</item>
+        <item name="android:windowSharedElementExitTransition">@transition/shared_element_enter_exit</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/navigation_text_color_selected</item>
+
+    </style>
+</resources>

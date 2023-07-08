@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SymmetricProgressBar">
+        <attr
+            name="colors"
+            format="reference" />
+        <attr
+            name="interpolator"
+            format="reference" />
+        <attr
+            name="duration"
+            format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TooltipIndicator">
+        <attr name="ti_lineWidth" format="dimension" />
+        <attr name="ti_lineWidthSelected" format="dimension" />
+        <attr name="ti_lineHeight" format="dimension" />
+        <attr name="ti_lineMargin" format="dimension" />
+
+        <attr name="ti_tooltipWidth" format="dimension" />
+        <attr name="ti_tooltipHeight" format="dimension" />
+
+        <attr name="ti_selectedLineDrawable" format="reference" />
+        <attr name="ti_unselectedLineDrawable" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+            <attr name="row_header_width" format="dimension"/>
+            <attr name="column_header_height" format="dimension"/>
+            <attr name="selected_color" format="color"/>
+            <attr name="unselected_color" format="color"/>
+            <attr name="shadow_color" format="color"/>
+            <attr name="separator_color" format="color"/>
+            <attr name="show_vertical_separator" format="boolean"/>
+            <attr name="show_horizontal_separator" format="boolean"/>
+            <attr name="allow_click_inside_cell" format="boolean" />
+            <attr name="allow_click_inside_row_header" format="boolean" />
+            <attr name="allow_click_inside_column_header" format="boolean" />
+            <attr name="corner_view_location">
+                <enum name="top_left" value="0"/>
+                <enum name="top_right" value="1"/>
+                <enum name="bottom_left" value="2"/>
+                <enum name="bottom_right" value="3"/>
+            </attr>
+            <attr name="reverse_layout" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="src" format="reference"/>
+        <attr name="assetName" format="string"/>
+        <attr name="panEnabled" format="boolean"/>
+        <attr name="zoomEnabled" format="boolean"/>
+        <attr name="quickScaleEnabled" format="boolean"/>
+        <attr name="tileBackgroundColor" format="color"/>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="ActionImageView">
+        <attr name="actionType">
+            <enum name="none" value="0" />
+            <enum name="family" value="1" />
+            <enum name="size" value="2" />
+            <enum name="lineHeight" value="3" />
+            <enum name="foreColor" value="4" />
+            <enum name="backColor" value="5" />
+
+            <enum name="bold" value="6" />
+            <enum name="italic" value="7" />
+            <enum name="underline" value="8" />
+            <enum name="subscript" value="9" />
+            <enum name="superscript" value="10" />
+            <enum name="strikethrough" value="11" />
+
+            <enum name="normal" value="12" />
+            <enum name="h1" value="13" />
+            <enum name="h2" value="14" />
+            <enum name="h3" value="15" />
+            <enum name="h4" value="16" />
+            <enum name="h5" value="17" />
+            <enum name="h6" value="18" />
+
+            <enum name="justifyLeft" value="19" />
+            <enum name="justifyCenter" value="20" />
+            <enum name="justifyRight" value="21" />
+            <enum name="justifyFull" value="22" />
+
+            <enum name="ordered" value="23" />
+            <enum name="unordered" value="24" />
+
+            <enum name="indent" value="25" />
+            <enum name="outdent" value="26" />
+
+            <enum name="imageParcelable" value="27" />
+            <enum name="link" value="28" />
+            <enum name="table" value="29" />
+            <enum name="line" value="30" />
+
+            <enum name="blockQuote" value="31" />
+            <enum name="blockCode" value="32" />
+
+            <enum name="codeView" value="33" />
+
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CropImageView">
+        <attr name="cropGuidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+        <attr name="cropScaleType">
+            <enum name="fitCenter" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="centerInside" value="3"/>
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr name="cropAutoZoomEnabled" format="boolean"/>
+        <attr name="cropMaxZoom" format="integer"/>
+        <attr name="cropMultiTouchEnabled" format="boolean"/>
+        <attr name="cropFixAspectRatio" format="boolean"/>
+        <attr name="cropAspectRatioX" format="integer"/>
+        <attr name="cropAspectRatioY" format="integer"/>
+        <attr name="cropInitialCropWindowPaddingRatio" format="float"/>
+        <attr name="cropBorderLineThickness" format="dimension"/>
+        <attr name="cropBorderLineColor" format="color"/>
+        <attr name="cropBorderCornerThickness" format="dimension"/>
+        <attr name="cropBorderCornerOffset" format="dimension"/>
+        <attr name="cropBorderCornerLength" format="dimension"/>
+        <attr name="cropBorderCornerColor" format="color"/>
+        <attr name="cropGuidelinesThickness" format="dimension"/>
+        <attr name="cropGuidelinesColor" format="color"/>
+        <attr name="cropBackgroundColor" format="color"/>
+        <attr name="cropSnapRadius" format="dimension"/>
+        <attr name="cropTouchRadius" format="dimension"/>
+        <attr name="cropSaveBitmapToInstanceState" format="boolean"/>
+        <attr name="cropShowCropOverlay" format="boolean"/>
+        <attr name="cropShowProgressBar" format="boolean"/>
+        <attr name="cropMinCropWindowWidth" format="dimension"/>
+        <attr name="cropMinCropWindowHeight" format="dimension"/>
+        <attr name="cropMinCropResultWidthPX" format="float"/>
+        <attr name="cropMinCropResultHeightPX" format="float"/>
+        <attr name="cropMaxCropResultWidthPX" format="float"/>
+        <attr name="cropMaxCropResultHeightPX" format="float"/>
+        <attr name="cropFlipHorizontally" format="boolean"/>
+        <attr name="cropFlipVertically" format="boolean"/>
+    </declare-styleable>
+
+
+    <attr name="corner_radius" format="dimension" />
+    <attr name="borderColor" format="color" />
+    <attr name="shadowColor" format="color" />
+    <attr name="gradientType" format="integer" />
+
+    <declare-styleable name="AppTextView">
+        <attr name="textStyle" />
+    </declare-styleable>
+
+    <attr name="textStyle" format="integer">
+        <enum name="bold" value="1" />
+        <enum name="bold_italic" value="3" />
+        <enum name="italic" value="2" />
+        <enum name="normal" value="0" />
+    </attr>
+    <declare-styleable name="gradientTextView">
+        <attr name="gradientType" />
+        <attr name="startColor" />
+        <attr name="endColor" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerLayout">
+        <attr name="stroke_color" format="reference|color" />
+        <attr name="round_as_circle" format="boolean" />
+        <attr name="corner_radius" />
+        <attr name="stroke_width" format="integer|dimension" />
+
+        <attr name="corner_radius_bottom" format="integer|dimension" />
+        <attr name="corner_radius_bottom_left" format="integer|dimension" />
+        <attr name="corner_radius_bottom_right" format="integer|dimension" />
+        <attr name="corner_radius_top" format="integer|dimension" />
+        <attr name="corner_radius_top_left" format="integer|dimension" />
+        <attr name="corner_radius_top_right" format="integer|dimension" />
+        <attr name="rounded_content_layout" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="appButtonView">
+        <attr name="startColor" format="color" />
+
+        <attr name="adjustDrawableLeft" format="boolean" />
+        <attr name="borderColor" />
+        <attr name="cornerRadius" />
+        <attr name="enableShadow" format="boolean" />
+        <attr name="endColor" format="color" />
+        <attr name="gradientType" />
+        <attr name="icon" format="reference" />
+        <attr name="roundedCorner" format="boolean" />
+        <attr name="textEndColor" format="color" />
+        <attr name="textStartColor" format="color" />
+        <attr name="textStyle" />
+        <attr name="shadowColor" />
+    </declare-styleable>
+
+    <declare-styleable name="appCardView">
+
+        <attr name="startColor" />
+        <attr name="endColor" />
+        <attr name="gradientType" />
+        <attr name="shadowRadius" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+        <attr name="cornerRadius" />
+        <attr name="borderColor" />
+        <attr name="shadowColor" />
+
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr name="fillRadius" format="boolean" />
+        <attr name="pBarColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="barSpinCycleTime" format="integer" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="spinSpeed" format="float" />
+        <attr name="progressIndeterminate" format="boolean" />
+        <attr name="circleRadius" format="dimension" />
+
+    </declare-styleable>
+    <declare-styleable name="RoundedCornerImageView">
+        <attr name="left_bottom_corner_radius" format="dimension" />
+        <attr name="left_top_corner_radius" format="dimension" />
+        <attr name="corner_radius" />
+        <attr name="oval" format="boolean" />
+        <attr name="border_color" format="color" />
+        <attr name="right_bottom_corner_radius" format="dimension" />
+        <attr name="right_top_corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ShimmerLayout">
+
+        <attr name="shimmer_angle" format="reference|integer">
+        </attr>
+        <attr name="shimmer_animation_duration" format="reference|integer">
+        </attr>
+        <attr name="shimmer_auto_start" format="reference|boolean">
+        </attr>
+        <attr name="shimmer_color" format="reference|color">
+        </attr>
+        <attr name="shimmer_gradient_center_color_width" format="reference|float">
+        </attr>
+        <attr name="shimmer_mask_width" format="reference|float">
+        </attr>
+        <attr name="shimmer_reverse_animation" format="reference|boolean">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView" />
+
+    <attr name="radiusImage" format="dimension">
+    </attr>
+</resources>

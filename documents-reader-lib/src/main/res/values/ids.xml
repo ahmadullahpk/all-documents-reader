@@ -1,0 +1,8 @@
+<resources>
+    <item name="ColumnHeaderRecyclerView" type="id"/>
+    <item name="RowHeaderRecyclerView" type="id"/>
+    <item name="CellRecyclerView" type="id"/>
+    <item type="id" name="dgv_wobble_tag"/>
+    <item name="item_click_support" type="id" />
+
+</resources>
