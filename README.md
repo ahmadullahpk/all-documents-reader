@@ -75,7 +75,7 @@ dependencyResolutionManagement {
 add this dependency 
 	       
 	 
-    implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.6'
+    implementation 'com.github.ahmadullahpk:all-documents-reader:1.0.7'
 
 # Step 3
 
