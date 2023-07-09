@@ -97,6 +97,11 @@ android {
     ...........
  
 }
+
+# Step 4
+add this line in gradle.properties 
+
+android.enableJetifier=true
      
 
 
