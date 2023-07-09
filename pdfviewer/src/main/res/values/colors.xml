@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="page_indicator">#e33147</color>
-    <color name="toolbar">#e33147</color>
-    <color name="background">#525660</color>
-    <color name="red">#BC0F25</color>
-    <color name="border">#d9d9d9</color>
-
-</resources>

@@ -17,4 +17,3 @@ dependencyResolutionManagement {
 rootProject.name = "all documents reader"
 include ':app'
 include ':documents-reader-lib'
-include ':pdfviewer'

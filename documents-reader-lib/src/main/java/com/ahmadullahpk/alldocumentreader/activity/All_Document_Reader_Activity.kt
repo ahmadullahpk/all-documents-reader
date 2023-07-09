@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ahmadullahpk.alldocumentreader.toasty
 import com.ahmadullahpk.alldocumentreader.util.Utility
 import com.ahmadullahpk.alldocumentreader.xs.constant.MainConstant
-import com.artifex.mupdf.viewer.PDF_Reader_Activity
 import java.io.File
 import java.io.FileOutputStream
 
@@ -21,7 +20,6 @@ class All_Document_Reader_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS)
-
 
         val intent = intent
         if (intent != null) {
@@ -55,9 +53,8 @@ class All_Document_Reader_Activity : AppCompatActivity() {
                 m_intent = Intent(this, ViewFiles_Activity::class.java)
                 if(filepath!!.endsWith("pdf")){
                     m_intent = Intent(this, PDF_Reader_Activity::class.java)
-                    m_intent.setAction("android.intent.action.VIEW");
-                    m_intent.putExtra("in_app", true);
-                    m_intent.setData(Uri.fromFile( File(filepath)));
+                    m_intent.action = "android.intent.action.VIEW";
+                    m_intent.data = Uri.fromFile( File(filepath));
                 }
                 if(filepath!!.endsWith("rtf")){
                     m_intent = Intent(this, ViewRtf_Activity::class.java)
